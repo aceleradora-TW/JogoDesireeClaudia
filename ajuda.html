@@ -3,15 +3,37 @@
   <head>
     <meta charset="utf-8">
     <title>AJUDA</title>
+    <style>
+      body{
+        font-family: verdana, sans-serif;
+        font-size: 24px;
+      }
+      h1 {
+        color: #f44271;
+        font-style: italic;
+      }
+
+      .ajuda{
+        background-color: #ffe5ec;
+        border: 2px solid #f44271;
+        padding-left: 20px;
+      }
+      .negrito{
+        font-weight: bold;
+      }
+      .exemplo{
+        color: #4f4c4d;
+      }
+    </style>
   </head>
   <body>
-    <h1>COMO FUNCIONA:</h1>
-    <p>Para definir os números, vá para localhost:3000/update e coloque os números mínimo e máximo.</p>
-    <p>EXEMPLO: localhost:3000/update/1/10</p>
-    <p>Para jogar, vá ate localhost:3000/guess e coloque o número que você quiser</p>
-    <p>EXEMPLO: localhost:3000/guess/2</p>
-
-
+    <div class="ajuda">
+      <h1>COMO FUNCIONA:</h1>
+      <p>Para definir os números, vá para localhost:3000/update e coloque os números mínimo e máximo.</p>
+      <p><span class="negrito">EXEMPLO:</span> <span class="exemplo">localhost:3000/update/1/10</span></p>
+      <p>Para jogar, vá ate localhost:3000/guess e coloque o número que você quiser</p>
+      <p><span class="negrito">EXEMPLO:</span> <span class="exemplo">localhost:3000/guess/2</span></p>
+    </div>
 
   </body>
 </html>
